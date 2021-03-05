@@ -109,17 +109,13 @@ tr {
 }
 
 #tableData {
-  padding: 0 0 1em 1em;
-  display: none;
-  
+  padding: 0 0 1em 1em;  
 }
-
 
 .location {
   list-style-type: circle;
   margin-bottom: 0;
   margin-left: 3em;
-  
 }
 
 .continent {
@@ -127,3 +123,16 @@ tr {
   margin-left: 1.5em;
 }
 
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  table{
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+
+}

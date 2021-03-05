@@ -10,7 +10,6 @@
     <link href="./style.css" rel="stylesheet">
     <link href="./css.css" rel="stylesheet">
     <title>AS208884</title>
-    
 </head>
 <body>
     <div class="header">
@@ -50,20 +49,11 @@
             <p>目前我哋要求傳輸客戶嘅流量級別喺10Mbps以下。 我哋要求喺所有共同嘅交換中心都建立傳輸連線，以優化線路</p>
         </section>
 
-        <script >
-            const showTable = () => {
-                let tableClass = documents.getElementById('tableData');
-                if (tableClass.style.display === "none") {
-                    tableClass.style.display = "block";
-                } else {
-                    tableClass.style.display = "none";
-                }
-            }
-        </script>
+        
 
         <section >
             <div class="subtitle">IX | <span class="chinese">交換中心</span></div>
-            <button onclick="showTable()">Show Table</button>
+            <div class="hidden">Please use a larger screen to view the table</div>
             <div id="tableData">
                 <table>
                     <tr>
