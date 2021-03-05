@@ -108,9 +108,12 @@ tr {
   text-align: left;
 }
 
-.tableData {
+#tableData {
   padding: 0 0 1em 1em;
+  display: none;
+  
 }
+
 
 .location {
   list-style-type: circle;
@@ -124,15 +127,3 @@ tr {
   margin-left: 1.5em;
 }
 
-.hiddenDesktop {
-  visibility: hidden;
-}
-
-@media screen and (max-width: 650px) {
-  table {
-    visibility: hidden;
-  }
-  .hiddenDesktop {
-    visibility: visible;
-  }
-}
